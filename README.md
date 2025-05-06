@@ -1,1 +1,2 @@
-Live Demo: https: www.indian-railway-clone.netlify.app/
+Live demo:  https://indian-railway-clone.netlify.app
+
