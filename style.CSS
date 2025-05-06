@@ -1,0 +1,304 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.top-box {
+    width: 1220px;
+    height: 40px; 
+    background-color: #337ab7;
+    overflow: visible; 
+    position: relative;
+}
+.main-title {
+    display: block;
+    position: relative;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding-left: 190px;
+    
+}
+
+
+
+.PNR
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 10px;
+    padding-left: 380px;
+    color: white;
+    top:-23px;
+
+}
+.Res
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 10px;
+    padding-left: 27px;
+    color: white;
+    top: -22px;  
+}
+.Seat
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 10px;
+    padding-left: 28px;
+    color: white;
+    top: -22px;      
+}
+.Fare
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 10px;
+    padding-left: 25px;
+    color: white;
+    top: -22px;    
+}
+.Sc
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 10px;
+    padding-left: 25px;
+    color: white;
+    top: -22px;    
+}
+
+.mar1{
+    
+    width: 600px;
+    height: 50px; 
+    margin: auto;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background: transparent; 
+    overflow: hidden; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px; 
+    line-height: 1.5;
+    color: #333; 
+    margin-top: -150px;
+}
+.pic1
+{
+position: relative;
+width: 60px;
+height: 60px;
+margin-left:200px;
+top: 20px;
+}
+.L1
+{
+position: relative;
+ text-align: center;
+ margin-top: -30PX;  
+ font-size: 18px;  
+ color: #333;;
+}
+.pic2
+{
+position: relative;
+top: -60px;     
+margin-left:1000px;
+width: 50px;
+
+
+}
+.pic3
+{
+    width: 30px;
+    position: relative;
+    top: -100PX;     
+   margin-left: 1050px;
+    
+}
+
+.ad1
+{
+ margin-left: 250px;   
+}
+
+.mar2 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #337ab7;
+    animation: marqueeMove 20s linear infinite;
+    font-size: 12px;
+}
+
+.mar2 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 25px;
+    background-color: transparent;
+}
+
+.mar2 .new {
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    animation: marqueeMove 20s linear infinite;
+    color: #337ab7;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@keyframes marqueeMove {
+    0% { transform: translateX(10%); }
+    100% { transform: translateX(-100%); }
+}
+
+@keyframes blinkColor {
+    0%, 100% { color: blue; }
+    50% { color: green; }
+    75% { color: yellow; }
+}
+
+
+.Y
+{
+    border: 1px solid gray;
+margin-left: 100px;
+position: relative;
+width: 180px;
+height: 30px;
+border-radius: 4PX;
+text-align: left
+
+}
+.Z
+{
+position: relative;
+border: 1px solid gray;
+margin-left: 100px;
+width: 180px;
+height: 30px;
+margin-top: 10px;
+border-radius: 4PX;
+text-align: left
+
+}
+.pm
+{
+margin-left: 300px;  
+margin-top: -30px;  
+}
+.Video
+{
+ width: 280px;
+ margin-left: 500px;
+ margin-top: 30px;
+
+
+}
+
+.ad2
+{
+position: relative;
+margin-left: 220px;
+}
+hr
+{
+width: 950px;    
+color: #333;
+}
+.last
+{
+ text-align: center;   
+ font-size: 10px;
+ color:#333;;
+}
+.im {
+    width: 50px;
+    position: fixed; 
+    left: 20px; 
+    bottom: 150px; 
+    transition: transform 0.2s ease-out; 
+}
+
+
+@media (max-width: 800px) {
+    .im {
+        transform: translateY(10px); 
+    }
+}
+h6
+{
+color: #337ab7;
+margin-left: 100PX;
+
+}
+
+
+
+
+
+
+.mar1 {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 0;
+  margin-top: -100px;  
+  box-sizing: border-box;
+}
+
+.mar1 .marquee-text {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: .2rem;
+  color: black;
+  animation: marquee-scroll 10s linear infinite;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+ 
